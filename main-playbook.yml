@@ -1,0 +1,5 @@
+- hosts: k8sserver
+  user: root
+  become_method: sudo
+  roles:
+    - node_exporter
